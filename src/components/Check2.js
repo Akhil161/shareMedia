@@ -227,7 +227,10 @@ function Check2() {
             {
                     obj.length !== 0 ?
                         obj.map((key) => {
-                            if (icon[`${key.name}`] === true){
+                            return(
+                                <>
+                                
+                            icon[`${key.name}`] === true?
                                 return (
                                     // <div style={{ border: "none", width: "fit-content", display: "inline-flex", borderRadius: "20px" }}>
                                         <div style={{marginBottom:"27%"}}>
@@ -237,7 +240,9 @@ function Check2() {
 
                                         </div>
                                     // </div>
-                                )}
+                                ):null
+                        
+                                </>)
                                 
                         }) :
                         null
