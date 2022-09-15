@@ -25,7 +25,6 @@ import {
 import {
     EmailIcon,
     FacebookIcon,
-    FacebookMessengerIcon,
     HatenaIcon,
     InstapaperIcon,
     LineIcon,
