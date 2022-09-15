@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Check from './components/check'
 import Check2 from './components/Check2';
