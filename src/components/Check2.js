@@ -238,9 +238,7 @@ function Check2() {
                                         </div>
                                     // </div>
                                 )}
-                                else{
-                                    null
-                                }
+                                
                         }) :
                         null
             }
