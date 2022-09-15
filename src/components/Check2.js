@@ -232,14 +232,14 @@ function Check2() {
                                 
                             icon[`${key.name}`] === true?
                                 return (
-                                    // <div style={{ border: "none", width: "fit-content", display: "inline-flex", borderRadius: "20px" }}>
+                                
                                         <div style={{marginBottom:"27%"}}>
                                             <div style={{ border: "none", backgroundColor: "transparent" }}>
                                                 {key.socialName}
                                             </div>
 
                                         </div>
-                                    // </div>
+                            
                                 ):null
                         
                                 </>)
